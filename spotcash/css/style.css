@@ -1,0 +1,477 @@
+*{
+    font-family: Inter;
+    outline: none;
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    box-sizing: border-box;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #141416;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+}
+
+#logo-main{
+    position: absolute;
+    width: 281px;
+    height: 55px;
+    left: 30px;
+    top: 20px;
+}
+
+#menu {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    right: 30px;
+    top: 32px;
+    cursor: pointer;
+}
+#options, #options-two, #options-four{
+    cursor: pointer;
+}
+
+/* #coin-info-conteiner{
+    width: 60%;
+    height: 45%;
+} */
+
+#line-one{
+    position: absolute;
+    left: 36px;
+    top: 140px;
+}
+
+#options {
+    position: absolute;
+    width: 33px;
+    height: 5px;
+    left: 418px;
+    top: 120px;
+}
+#coin, #current{
+    width: 40%;
+}
+#coin-title{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 35px;
+    top: 90px;
+}
+
+#current-title{
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    left: 503px;
+    top: 90px;
+}
+
+#line-two{
+    position: absolute;
+    left: 503px;
+    top: 140px;
+}
+
+#date{
+    position: absolute;
+    width: 182px;
+    height: 24px;
+    left: 100px;
+    top: -3px;
+    text-align: center;
+    color: #dcd4d4;
+}
+
+#value-coin{
+    position: absolute;
+    width: 350px;
+    height: 73px;
+    left: 20px;
+    top: 5px;
+
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+}
+
+#conversion{
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 50px;
+    top: 123px;
+    text-align: center;
+
+    font-size: 15px;
+    color: #dcd4d4;
+
+}
+
+#minimum{
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 32px;
+    top: 170px;
+
+    font-size: 15px;
+    line-height: 18px;
+    color: #dcd4d4;
+
+}
+
+#maximum{
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 250px;
+    top: 169px;
+
+    font-size: 15px;
+    color: #dcd4d4;
+
+}
+
+#options-two{
+    position: absolute;
+    width: 33px;
+    height: 5px;
+    left: 885px;
+    top: 120px;
+}
+
+#options-coin{
+    position: absolute;
+    width: 385px;
+    height: 134px;
+    left: 51px;
+    top: 163px;
+
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 50px;
+    color: #FFFFFF;
+
+    background: url('../images/seta.png') no-repeat #1F1F21;
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: 330px center;
+    padding:13px 20px 13px 30px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    cursor: pointer;
+
+}
+
+#line-three{
+    position: absolute;
+    left: 36px;
+    top: 378px;
+}
+
+#display{
+    position: absolute;
+    width: 385px;
+    height: 177px;
+    left: 519px;
+    top: 163px;
+    
+    background: #1F1F21;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+input {
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#hour{
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 170px;
+    top: 28px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+    color: #C1B4B4;
+}
+
+#initial-date{
+    position: absolute;
+    width: 231px;
+    height: 45px;
+   
+    left: 36px;
+    top: 395px;
+    font-size: 15px;
+
+    background: #474545;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    opacity: 0.8;
+
+}
+#line {
+    position: absolute;
+    width: 66.11px;
+    height: 0px;
+    left: 294px;
+    top: 415px;
+
+    border: 1px solid #FFF9F9;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+#final-date{
+    position: absolute;
+    width: 231px;
+    height: 45px;
+    left: 385px;
+    top: 395px;
+    font-size: 15px;
+
+    background: #474545;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    opacity: 0.8;
+
+}
+
+#btn-search{
+    position: absolute;
+    width: 230px;
+    height: 45px;
+    left: 663px;
+    top: 395px;
+
+    background: #EC4F2B;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+#btn-search:hover{
+    background: #b63b1f;
+}
+#search-result{
+    position: absolute;
+
+    left: 36px;
+    top: 507px;
+}
+
+#show-values {
+    position: absolute;
+    width: 870px;
+    height: 150px;
+    left: 00px;
+    top: -50px;
+
+    background: #1F1F21;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#show-values div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search-result div p{
+    margin: 0;
+    text-align: left;
+    padding-top: 12px;
+}
+
+#show-values{
+    overflow:auto; 
+}
+#show-values::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+#show-values::-webkit-scrollbar-track {
+    background: #1F1F21;    
+    border-radius: 20px;   
+}
+  
+#show-values::-webkit-scrollbar-thumb {
+    background-color: #141416;    
+    border-radius: 20px;      
+    border: 3px solid #474545;  
+}
+
+#currency-values{
+    position: absolute;
+    width: 25%;
+    height: 24px;
+    left: 977px;
+    top: 91px;
+
+}
+
+#line-four{    
+    position: absolute;
+    top:51px;
+    width: 95%;
+}
+
+#options-four{
+    position: absolute;
+    right: 18px;
+    top: 30px;
+
+}
+
+#space-one {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    left: 993px;
+    top: 165px;
+    
+    background: #1F1F21;
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+    color: #bfbebe;
+
+}
+#space-two{
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    left: 994px;
+    top: 228px;
+    
+    background: #1F1F21;
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+    color: #bfbebe;
+}
+
+#space-three {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    left: 994px;
+    top: 294px;
+    
+    background: #1F1F21;
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+    color: #bfbebe;
+}
+
+#green-marker, #yellow-marker, #pink-marker{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 30px;
+    left: 252px;
+}
+#green-marker{
+    top: 15px;
+    background: #14FFAA;
+}
+
+#yellow-marker{
+    top: 15px;
+    background: #E7A600;
+}
+#pink-marker{
+    top: 15px;
+    background:  #EF526E;
+}
+
+#title-graph{
+    position: absolute;
+    width: 111px;
+    height: 36px;
+    left: 993px;
+    top: 415px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #FE6A48;
+
+}
+#graphic{
+    position: absolute;
+    width: 300px;
+    height: 124px;
+    left: 994px;
+    top: 480px;
+
+    background: #1F1F21;
+    border-radius: 10px;
+}
+
+#graphic-header{
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 000px;
+    top:0px;
+
+    background: #474545;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+
+#graphic-images{
+    width: 300px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#graphic-images:hover{
+    opacity: 1;
+}

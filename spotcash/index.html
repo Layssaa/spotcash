@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SpotCash</title>
+    
+</head>
+
+<body>
+    <header>
+        <img src="./images/logomain.svg" id="logo-main" />
+        <img src="./images/menu.svg" id="menu" />
+    </header>
+    <div id="coin-info-conteiner">
+        <div id="coin">
+            <h2 id="coin-title">Coin</h2>
+            <img src="./images/line_one.svg" id="line-one" />
+            <img src="./images/options.svg" id="options" />
+            <select name="choice-coin" id="options-coin">
+                <option value="null" > Selecione</option>
+               
+            </select>
+
+        </div>
+        <div id="current">
+            <div id="coin">
+                <h2 id="current-title">Current</h2>
+                <img src="./images/line_one.svg" id="line-two" />
+                <img src="./images/options.svg" id="options-two" />
+                <div id="display">
+                    <p id="date">----------</p>
+                    <p id="hour">00:00:00</p>
+                    <h2 id="value-coin">R$ 0,00</h2>
+                    <p id="conversion"></p>
+                    <p id="minimum">min --</p>
+                    <p id="maximum">-- máx</p>
+
+                </div>
+            </div>
+        </div>
+        <img src="./images/line_three.svg" id="line-three" />
+        <input type="date" id="initial-date">
+        <div id="line"></div>
+
+        <input type="date" id="final-date">
+        <input type="button" value="search" id="btn-search">
+
+        <div id="search-result">
+           
+        </div>
+
+    </div>
+    <div id="general-info-conteiner">
+        <div id="currency-values">
+            <h2>Currency values</h2>
+            <img src="./images/line_one.svg" id="line-four" />
+            <img src="./images/options.svg" id="options-four" />
+        </div>
+
+        <h2 id="title-graph">Graphic</h2>
+        <div id="graphic">
+            <img src="./images/graph.svg" id="graphic-images" alt="graph about coins">
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
